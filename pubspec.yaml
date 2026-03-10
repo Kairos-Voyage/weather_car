@@ -1,0 +1,32 @@
+name: weather_car
+description: 车机天气应用 - 适用于斯巴鲁森林人车机
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  intl: ^0.19.0
+  geolocator: ^11.0.0
+  shared_preferences: ^2.2.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    
+  fonts:
+    - family: WeatherIcons
+      fonts:
+        - asset: assets/fonts/weathericons-regular-4.0.ttf
